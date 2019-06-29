@@ -1,0 +1,25 @@
+{
+  "name": "beula",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beulathamban"
+  },
+  "keywords": [
+    "beula",
+    "god's",
+    "word"
+  ],
+  "author": "Beula",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "grunt": "^1.0.3",
+    "jquery": "^3.3.1"
+  }
+}
