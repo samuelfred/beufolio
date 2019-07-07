@@ -1,7 +1,7 @@
 console.log('hi');
 $(document).ready(function(){
 
-	$('.clpse').click(function(){
-		$('.nav').toggle();
-	})
+	 $('#menu').click(function(){
+	 	$('.nav').toggle();
+	 })
 })
