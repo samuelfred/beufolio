@@ -55,19 +55,20 @@
 }
 
 #mynav{
-	display:block;
+	display:none;
 	height:100%;
 	width:40%;
 	text-align: left;
 	/*padding-top:40px;*/
 	margin:auto;
+	z-index: 2;
 	/*-webkit-transition:block 2s; /* For Safari 3.1 to 6.0 */
     /*transition-timing-function: ease-in-out;*/
-    transition: 0.5s;
-	/*position:fixed;
+    /*transition: 0.5s;*/
+	position:fixed;
 	top: 50px;
-	left:20%;*/
-	/*border : 2px solid red;*/*/
+	left:0px;
+	/*border : 2px solid red;*/
 }
 .menu-icon{
 	width: 15%;
@@ -83,7 +84,7 @@
 }
 
 .btn{
-	display:block;
+	display:inline;
 	background-color: #2182BF;
 	color: white;
 	width: 100%;
