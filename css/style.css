@@ -4,10 +4,12 @@
 	box-sizing: border-box;
 }
 
+
 .container{
-	background-color: maroon;
+	
+	background-color:  #A68F81;;
 	color: black;
-	font-family: arial;
+	font-family: 'Montserrat', sans-serif;
 	margin-top : 50px;
 	
 }
@@ -17,46 +19,81 @@
 	margin-top : 20px;
 
 }
+/* Color Theme Swatches in Hex */
+
+/*sky blue*/
+/*color: #2182BF; */
 
 
-.logo{
-	width:13%;
-	height:100px;	
+
+/*copper sulphate*/
+/*color: #2BA8D9; */
+
+
+/*brown*/
+/*color: #A68F81;*/
+
+
+
+
+
+
+
+.mylogo{
+	width:15%;
+	height:100px;
+	/*border : 2px solid blue;	*/
 	}
 
+
 #logo{
-	width:70px;
-	border-radius:14px;
-	padding-top: 20px;
+	width:100px;
+	border-radius: 	50%;
+	margin-top: 40px;
+	margin-left: 40px;
 
 }
 
-.nav{
+#mynav{
 	display:block;
-	width:70%;
-	height:100px;
-	text-align: right;
-	padding-top:30px;
+	height:100%;
+	width:40%;
+	text-align: left;
+	/*padding-top:40px;*/
 	margin:auto;
+	/*-webkit-transition:block 2s; /* For Safari 3.1 to 6.0 */
+    /*transition-timing-function: ease-in-out;*/
+    transition: 0.5s;
+	/*position:fixed;
+	top: 50px;
+	left:20%;*/
+	/*border : 2px solid red;*/*/
+}
+.menu-icon{
+	width: 15%;
+	/*border : 2px solid black;*/
 }
 
-.nav-icon{
+/*.nav-icon{
 	display:none;
-}
+}*/
 
 #menu{
 	width:60px;
 }
 
 .btn{
-	display:inline;
-	background-color: black;
+	display:block;
+	background-color: #2182BF;
 	color: white;
-	width: 100px;
+	width: 100%;
 	height: 40px;
 	font-size: 13px;
 	font-weight: bold;
-	margin:auto;
+	/*margin:auto;*/
+	padding: 50px;
+	text-align: left;
+	border: 1px solid white;
 }
 
 
@@ -65,7 +102,9 @@
 	font-size: 16px;
 	color:white;
 	width:60%;
-	margin: auto;
+	margin: 20px auto;
+	
+
 }
 
 .ftr{
@@ -80,10 +119,23 @@
 	font-size: 12px;
 	margin-top:20px;	
 }
-
-
+.row2{
+	background: #2BA8D9;
+}
+.fa{
+	font-size:48px;
+	color: #2182BF;
+	position:absolute;
+	top:45%;
+	right:0px;
+}
+.close{
+		text-align: right;
+		font-size: 25px;
+		font-weight: bold;
+}
 /*tab*/
-@media only screen and (max-width:786px) and (min-width:586px){
+/*@media only screen and (max-width:786px) and (min-width:586px){
 	.nav-icon{
 		display:block;		
 	}
@@ -102,7 +154,7 @@
 
 	.header{
 		/*background: white;*/
-		color: maroon;
+		/*color: maroon;
 		height: 100px;
 
 	}
@@ -112,10 +164,10 @@
 		margin:auto;
 	}
 
-}
+}*/
 
 	/*mobile*/
-@media only screen and (max-width: 586px){
+/*@media only screen and (max-width: 586px){
 	.nav-icon{
 			display:block;
 		}
@@ -142,4 +194,4 @@
 		margin:auto;
 	}
 
-}
+}*/

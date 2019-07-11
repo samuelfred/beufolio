@@ -17,7 +17,14 @@
 	<title>Beula</title>
 
 	<link rel="shortcut icon" href="images/beu.jpg" type="image">
-	<link href='https://fonts.googleapis.com/css?family=Caveat Brush' rel='stylesheet'>
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+	<!-- font awesome icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 <!-- 	<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> -->
@@ -27,29 +34,43 @@
 <body>
 
 <div class="container">
-	<div class="row header">
+	<div class="row">
 
-		<div class="col logo">
+		<div class="col-3" id="mynav">
+			<button class="btn close"> &times </button>
+			<button class="btn"> Home  </button>
+			<button class="btn"> About Me  </button>
+			<button class="btn"> My Work </button>
+			<button class="btn"> Contact  </button>
+		</div>
+
+		<div class="col main">
+
+		<div class="row header">
+		<div class="col  mylogo">
 			<img id="logo" src="images/beu.jpg" alt="LOGO" />
 		</div>
 
-		<div class="col nav">
-			<button class="btn"> Home  </button>
-			<button class="btn"> About Me  </button>
-			<button class="btn"> Contact  </button>
+
+		
+
+		<div class="col menu-icon">
+			<i class="fa fa-align-justify" ></i>
+
 		</div>
-		<div class="col nav-icon">
+
+		<!-- <div class="col nav-icon"> -->
 			 <!-- <button class="clpse-btn"> --> 
-			 	<img src="images/menu.png" alt="menu" id="menu"> 
+			 <!--	<img src="images/menu.png" alt="menu" id="menu"> -->
 			 <!-- </button>  -->
-		</div>
-	</div>
+		<!--</div> -->
+	</div> <!--header-->
 <!-- 	<hr/> -->
-	<div class="row">
+	<div class="row row2">
 		
 		<div class="col">
 			<p class="intro"> A Web & UX design Tutor and front-end developer who is passionate about designing and developing a secured funcational website. <br/>
-			Develop 
+			
 			 </p>
 
 		</div>
@@ -61,8 +82,10 @@
 		<p class="ftr-txt">copyright@Beula2019</p>
 	  </div>
 	</div>
-	
-</div>
+
+	</div> <!--main col-->
+  </div> <!--entire row-->
+</div><!--container-->
 
 <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> -->
